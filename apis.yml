@@ -1,7 +1,6 @@
 aid: arcspan
 name: ArcSpan
-description: 'ArcSpan is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'ArcSpan is a technology company focused on providing advanced data analytics and integration solutions for financial services. It offers a suite of APIs that enable clients to access market data, perform risk assessments, and integrate with enterprise systems. The company positions itself as a bridge between raw data sources and actionable insights, targeting institutional investors, fintech firms, and data-driven enterprises. ArcSpan emphasizes security, scalability, and compliance in its platform, aiming to streamline data workflows and support decision-making processes across the financial sector.'
 url: https://raw.githubusercontent.com/api-evangelist/arcspan/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,6 +11,10 @@ created: '2026-09-25'
 modified: '2026-09-25'
 tags:
 - Company
+- Data Analytics
+- Financial Services
+- APIs
+- Integration
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +22,13 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
-- type: Website
-  url: https://www.nasdaqprivatemarket.com/
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: The public website provides only marketing HTML and no machine‑readable API documentation.
+  evidence:
+    - url: https://www.nasdaqprivatemarket.com/
+      status: 200
+  checked: 2026-09-25
+
